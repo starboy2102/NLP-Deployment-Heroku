@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNBimport joblib
-import pickle
+ import pickle
 
 # load the model from disk
 filename = 'nlp_model.pkl'
